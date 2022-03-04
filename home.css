@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('2454608.jpg');
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+div.bgoverlay{
+    background: rgb(7, 6, 12, 0.6)    
+}
+
+div.heading{
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+}
+
+h1{
+    padding: 40px;
+    font-size: 40px;
+}
+
+div.menubar{
+    display: flex;
+    background-color: rgb(216, 115, 115); 
+}
+
+div.menu ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+div.menu ul li a{
+    font-size: large;
+    text-decoration: none;
+    color: white;   
+}
+
+div.menu ul li:hover{
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
+}
+
+.active{
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
+}
+
+div.filter{
+    display: flex;  
+    align-items: center;
+    margin-left: 50px;
+    width: 64%;
+}
+
+#filtertext{
+    width: 30%;
+    height: 60%;
+}
+
+#magnify{
+    margin: 5px;
+    width: 3%;
+    height: 65%;
+    padding: 2px;
+}
+
+div.row{
+    display: flex;
+    align-items: center;
+}  
+
+div.col{
+    width:auto;
+    margin: 60px;
+    padding: 5px;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+div.col p{
+    color: beige;
+    padding: 5px;
+    text-align: center;
+}
+
+#movieposter{
+    width: auto;
+    height: 350px; /*height needs to be fixed else alignment gets messed up*/
+}
+
+@media screen and (max-width: 600px) {
+    .col {
+      width: 100%;
+    }
+  }
